@@ -1,58 +1,70 @@
 <!DOCTYPE html>
-<html lang="en"> 
-    <head>
-        <link href="stylesheet.css" rel="stylesheet">
-        <title>Best Homemade Double Chocolate Oreo Stuffed Marshmello Brownies</title>
-    </head>
-
-    <body>
-        <p class="text_01">Marshmellow Swirl Brownies</p>
-            <b>Equipment:</b>
-            <ul>
-                <li>8x8 Baking Dish</li>
-                <li>Cooking Spray</li>
-                <li>Parchment Paper</li>
-            </ul>
-            <b>Ingredients:</b>
-            <br></br>
-            <form action="/action_page.php">
-                <label for="yield"><b>Yield:</b></label>
-                <input type="number" id="b" value="16"><br><br>
-                <output id="myOutput" name="x" for="a b"></output>
-            </form>
-            <script>
-				function myFunction() {
-  				var x = document.getElementById("myOutput").form.id;
-				document.getElementById("demo").innerHTML = x;
-				}
-		    </script>
-            <ul>
-                <li>1 1/2 cups granulated sugar</li>
-                <li>3/4 cups all purpose flour</li>
-                <li>2/3 cups cocoa powder, sifted if limpy</li>
-                <li>1/2 cups powdered sugar, sifted if limpy</li>
-                <li>1/2 cups dark cocolate chips</li>
-                <li>1/2 cups marshmellos</li>
-                <li>1/2 cups dark chocolate oreos</li>
-                <li>3/4 teaspoons sea salt</li>
-                <li>2 large eggs</li>
-                <li>1/2 cup canola oil or extra virgin olive oil</li>
-                <li>2 tablespoons water</li>
-                <li>1/2 teaspoon vanilla</li>
-            </ul>
-            <b>Instructions:</b>
-            <ol>
+<html lang="en" class="main_font">
+<head>
+  <link rel="stylesheet" href="stylesheet.css">
+  <title>Best Homemade Double Chocolate Oreo Stuffed Marshmello Brownies</title>
+</head>
+<script src="code.js"></script>
+<body>
+  <h1>Best Homemade Double Chocolate Oreo Stuffed Marshmello Brownies</h1>
+  <h1>Created by: <a href="file:///C:/Users/Tommy/Web%20Development/Project%201%20-%20Profile%20Page/index.html">Thomas Murphy</a></h1>
+  <h1><a href="https://www.loveandlemons.com/brownies-recipe/">Original Recipe</a> by: <a href="https://www.loveandlemons.com/">Love & Lemons</a></h1>
+  
+  <h3>Prep time: 5 minutes</h3>
+  <h3>Cook time: 45 minutes</h3>
+  <h3>Original Yield: 16</h3>
+  <ul>
+    <li>1.50 cups granulated sugar</li>
+    <li>0.75 cups all purpose flour</li>
+    <li>0.67 cups cocoa powder, sifted if limpy</li>
+    <li>0.50 cups powdered sugar, sifted if limpy</li>
+    <li>0.50 cups dark cocolate chips</li>
+    <li>0.50 cups marshmellos</li>
+    <li>0.50 cups dark chocolate oreos</li>
+    <li>0.75 teaspoons sea salt</li>
+    <li>2.00 large eggs</li>
+    <li>0.50 cup canola oil or extra virgin olive oil</li>
+    <li>2.00 tablespoons water</li>
+    <li>0.50 teaspoon vanilla</li>
+  </ul>
+  <ul id="original-ingredients-list">
+    <!-- The original ingredient list will be dynamically updated -->
+  </ul>
+  
+  <div id="scale">
+    <label for="yield">Scale:</label>
+    <input type="number" id="yield" value="16">
+    <button onclick="calculateRecipe()">Calculate</button>
+  </div>
+  
+  <h2>Scaled Ingredients:</h2>
+  <ul id="ingredients-list">
+    <!-- The ingredient list will be dynamically updated -->
+  </ul>
+  
+  <h2>Instructions:</h2>
+  <ol>
                 <li>Preheat the oven to 325°F. Lightly spray an 8x8 baking dish (not a 9x9 dish or your brownies will overcook) with cooking spray and line it with parchment paper. Spray the parchment paper.</li><br></br>
                 <li>In a medium bowl, combine the sugar, flour, cocoa powder, powdered sugar, chocolate chips, marshmellos, oreos, and salt.</li><br></br>
                 <li>In a large bowl, whisk together the eggs, olive oil, water, and vanilla.</li><br></br>
                 <li>Sprinkle the dry mix over the wet mix and stir until just combined.</li><br></br>
                 <li>Pour the batter into the prepared pan (it'll be thick - that's ok) and use a spatula to smooth the top. Bake for 40 to 48 minutes, or until a toothpick comes out with only a few crumbs attached (note: it's better to pull the brownies out early than to leave them in too long). Cool completely before slicing.*** Store in an airtight container at room temperature for up to 3 days. These also freeze well!</li><br></br>
             </ol>
-            <b>Notes:</b>
-            <ul>
+  
+  <h2>Equipment:</h2>
+  <ul>
+                <li>8x8 Baking Dish</li>
+                <li>Cooking Spray</li>
+                <li>Parchment Paper</li>
+            </ul>
+  
+  <h2>Extra Notes:</h2>
+  <ul>
                 <li>*If you'd like to reduce the sugar, I've had success with 1 cup granulated sugar instead of 1 1/2 cups.</li>
                 <li>**I like to use olive oil because it's what I keep on hand and I enjoy the pairing of olive oil with chocolate. Keep in mind that you will taste it here. For a more neutral flavor, use canola oil.</li>
                 <li>***When these brownies come out of the oven, they'll be super gooey in the middle. Allow them to cool completely, about 2 hours, before you slice into them to give them a chance to set up. They'll continue to firm up the longer they're out of the oven. If you still prefer a firmer brownie, store them in the fridge.</li>
             </ul>
-    </body>
+  
+  <script src="script.js"></script>
+</body>
 </html>

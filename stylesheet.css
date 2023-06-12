@@ -1,0 +1,66 @@
+.main_font {
+    font-family: Calibri;
+}
+
+body{
+    background-color: rgb(255, 125, 0);
+}
+
+h1, h2, h3, h4 {
+  color: rgb(52, 112, 176); /* Text color for headings */
+}
+
+ul, ol {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+li {
+  margin-bottom: 5px;
+}
+
+#scale {
+  margin-top: 20px;
+}
+
+label {
+  display: inline-block;
+  margin-right: 5px;
+}
+
+input[type="number"] {
+  width: 80px;
+}
+
+button {
+  padding: 5px 10px;
+  background-color: #555; /* Background color for the button */
+  color: #fff; /* Text color for the button */
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #333; /* Background color for the button on hover */
+}
+
+/* Styling for the ingredient list */
+#ingredients-list {
+  margin-bottom: 20px;
+}
+
+/* Styling for the instructions list */
+#instructions-list {
+  margin-bottom: 20px;
+}
+
+/* Styling for the equipment list */
+#equipment-list {
+  margin-bottom: 20px;
+}
+
+/* Styling for the extra notes list */
+#extra-notes-list {
+  margin-bottom: 20px;
+}
